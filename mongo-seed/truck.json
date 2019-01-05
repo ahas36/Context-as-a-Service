@@ -1,0 +1,440 @@
+[
+{ 
+    "_id" : ObjectId("5b1592171f17c091a145fb2f"), 
+    "swm:ownedBy" : {
+        "coaas:contextValue" : "SWM INC", 
+        "@type" : "coaas:ContextValue", 
+        "coaas:metaData" : {
+            "coaas:observationTime" : 1527349524.0, 
+            "coaas:expieryTime" : 1630732274530.0, 
+            "coaas:serviceEndPoint" : {
+                "method" : "omi", 
+                "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteTruckRoutes</id><Object><id>Truck 1 Route</id><InfoItem name='ownedBy'/></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                "uri" : "http://77.234.220.206:8080/"
+            }, 
+            "@type" : "coaas:MetaData", 
+            "coaas:createdAt" : 1528140274530.0
+        }, 
+        "@context" : {
+            "coaas" : "http://schema.coaas.org/"
+        }
+    }, 
+    "@type" : "swm:WasteTruckRoute", 
+    "swm:Waste" : {
+        "coaas:contextValue" : "Mixed", 
+        "@type" : "coaas:ContextValue", 
+        "coaas:metaData" : {
+            "coaas:observationTime" : 1527349524.0, 
+            "coaas:expieryTime" : 1630732274530.0, 
+            "coaas:serviceEndPoint" : {
+                "method" : "omi", 
+                "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteTruckRoutes</id><Object><id>Truck 1 Route</id><InfoItem name='Waste'/></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                "uri" : "http://77.234.220.206:8080/"
+            }, 
+            "@type" : "coaas:MetaData", 
+            "coaas:createdAt" : 1528140274530.0
+        }, 
+        "@context" : {
+            "coaas" : "http://schema.coaas.org/"
+        }
+    }, 
+    "swm:Capacity" : {
+        "swm:maximumValue" : {
+            "coaas:contextValue" : "2000.0", 
+            "@type" : "coaas:ContextValue", 
+            "coaas:metaData" : {
+                "coaas:observationTime" : 1527349524.0, 
+                "coaas:expieryTime" : 1628140575876.0, 
+                "coaas:serviceEndPoint" : {
+                    "method" : "omi", 
+                    "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteTruckRoutes</id><Object><id>Truck 1 Route</id><Object><id>Capacity</id><InfoItem name='maximumValue'/></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                    "uri" : "http://77.234.220.206:8080/"
+                }, 
+                "@type" : "coaas:MetaData", 
+                "coaas:createdAt" : 1528140275876.0
+            }, 
+            "@context" : {
+                "coaas" : "http://schema.coaas.org/"
+            }
+        }, 
+        "swm:realTimeCapacity" : {
+            "coaas:contextValue" : "100", 
+            "@type" : "coaas:ContextValue", 
+            "coaas:metaData" : {
+                "coaas:observationTime" : 1527870142.0, 
+                "coaas:expieryTime" : 1628140575876.0, 
+                "coaas:serviceEndPoint" : {
+                    "method" : "omi", 
+                    "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteTruckRoutes</id><Object><id>Truck 1 Route</id><Object><id>Capacity</id><InfoItem name='realTimeCapacity'/></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                    "uri" : "http://77.234.220.206:8080/"
+                }, 
+                "@type" : "coaas:MetaData", 
+                "coaas:createdAt" : 1528140275876.0
+            }, 
+            "@context" : {
+                "coaas" : "http://schema.coaas.org/"
+            }
+        }, 
+        "@type" : "swm:Capacity", 
+        "@id" : "Capacity"
+    }, 
+    "schema:CurrentLocation" : {
+        "schema:latitude" : {
+            "coaas:contextValue" : "VALUE_PLACEHOLDER", 
+            "@type" : "coaas:ContextValue", 
+            "coaas:metaData" : {
+                "coaas:observationTime" : 1527880352.0, 
+                "coaas:expieryTime" : 1630732275878.0, 
+                "coaas:serviceEndPoint" : {
+                    "method" : "omi", 
+                    "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteTruckRoutes</id><Object><id>Truck 1 Route</id><Object><id>CurrentLocation</id><InfoItem name='latitude'/></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                    "uri" : "http://77.234.220.206:8080/"
+                }, 
+                "@type" : "coaas:MetaData", 
+                "coaas:createdAt" : 1528140275878.0
+            }, 
+            "@context" : {
+                "coaas" : "http://schema.coaas.org/"
+            }
+        }, 
+        "@type" : "schema:GeoCoordinates", 
+        "@id" : "CurrentLocation", 
+        "schema:longitude" : {
+            "coaas:contextValue" : "VALUE_PLACEHOLDER", 
+            "@type" : "coaas:ContextValue", 
+            "coaas:metaData" : {
+                "coaas:observationTime" : 1527880352.0, 
+                "coaas:expieryTime" : 1630732275878.0, 
+                "coaas:serviceEndPoint" : {
+                    "method" : "omi", 
+                    "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteTruckRoutes</id><Object><id>Truck 1 Route</id><Object><id>CurrentLocation</id><InfoItem name='longitude'/></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                    "uri" : "http://77.234.220.206:8080/"
+                }, 
+                "@type" : "coaas:MetaData", 
+                "coaas:createdAt" : 1528140275878.0
+            }, 
+            "@context" : {
+                "coaas" : "http://schema.coaas.org/"
+            }
+        }
+    }, 
+    "@id" : "Truck 1 Route", 
+    "swm:route" : {
+        "type" : "LineString", 
+        "coordinates" : [
+            [
+                24.8288542, 
+                60.1841814
+            ], 
+            [
+                24.830605, 
+                60.183606
+            ], 
+            [
+                24.831442, 
+                60.1832
+            ], 
+            [
+                24.831281, 
+                60.183926
+            ]
+        ], 
+        "@type" : "swm:Route", 
+        "swm:RoutePoint1" : {
+            "@type" : "swm:Point", 
+            "swm:status" : {
+                "coaas:contextValue" : "passed", 
+                "@type" : "coaas:ContextValue", 
+                "coaas:metaData" : {
+                    "coaas:observationTime" : 1527349524.0, 
+                    "coaas:expieryTime" : 1630732275879.0, 
+                    "coaas:serviceEndPoint" : {
+                        "method" : "omi", 
+                        "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteTruckRoutes</id><Object><id>Truck 1 Route</id><Object><id>Route1733</id><Object><id>RoutePoint1</id><InfoItem name='status'/></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                        "uri" : "http://77.234.220.206:8080/"
+                    }, 
+                    "@type" : "coaas:MetaData", 
+                    "coaas:createdAt" : 1528140275879.0
+                }, 
+                "@context" : {
+                    "coaas" : "http://schema.coaas.org/"
+                }
+            }, 
+            "swm:time" : {
+                "coaas:contextValue" : "60.1841814", 
+                "@type" : "coaas:ContextValue", 
+                "coaas:metaData" : {
+                    "coaas:observationTime" : 1527349524.0, 
+                    "coaas:expieryTime" : 1630732275879.0, 
+                    "coaas:serviceEndPoint" : {
+                        "method" : "omi", 
+                        "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteTruckRoutes</id><Object><id>Truck 1 Route</id><Object><id>Route1733</id><Object><id>RoutePoint1</id><InfoItem name='time'/></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                        "uri" : "http://77.234.220.206:8080/"
+                    }, 
+                    "@type" : "coaas:MetaData", 
+                    "coaas:createdAt" : 1528140275879.0
+                }, 
+                "@context" : {
+                    "coaas" : "http://schema.coaas.org/"
+                }
+            }, 
+            "@id" : "RoutePoint1", 
+            "swm:PointType" : {
+                "coaas:contextValue" : "Point", 
+                "@type" : "coaas:ContextValue", 
+                "coaas:metaData" : {
+                    "coaas:observationTime" : 1527349524.0, 
+                    "coaas:expieryTime" : 1630732275879.0, 
+                    "coaas:serviceEndPoint" : {
+                        "method" : "omi", 
+                        "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteTruckRoutes</id><Object><id>Truck 1 Route</id><Object><id>Route1733</id><Object><id>RoutePoint1</id><InfoItem name='PointType'/></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                        "uri" : "http://77.234.220.206:8080/"
+                    }, 
+                    "@type" : "coaas:MetaData", 
+                    "coaas:createdAt" : 1528140275879.0
+                }, 
+                "@context" : {
+                    "coaas" : "http://schema.coaas.org/"
+                }
+            }, 
+            "schema:geo" : {
+                "schema:latitude" : {
+                    "coaas:contextValue" : "60.1841814", 
+                    "@type" : "coaas:ContextValue", 
+                    "coaas:metaData" : {
+                        "coaas:observationTime" : 1527349524.0, 
+                        "coaas:expieryTime" : 1630732275882.0, 
+                        "coaas:serviceEndPoint" : {
+                            "method" : "omi", 
+                            "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteTruckRoutes</id><Object><id>Truck 1 Route</id><Object><id>Route1733</id><Object><id>RoutePoint1</id><Object><id>geo</id><InfoItem name='latitude'/></Object></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                            "uri" : "http://77.234.220.206:8080/"
+                        }, 
+                        "@type" : "coaas:MetaData", 
+                        "coaas:createdAt" : 1528140275882.0
+                    }, 
+                    "@context" : {
+                        "coaas" : "http://schema.coaas.org/"
+                    }
+                }, 
+                "@type" : "schema:GeoCoordinates", 
+                "@id" : "geo", 
+                "schema:longitude" : {
+                    "coaas:contextValue" : "24.8288542", 
+                    "@type" : "coaas:ContextValue", 
+                    "coaas:metaData" : {
+                        "coaas:observationTime" : 1527349524.0, 
+                        "coaas:expieryTime" : 1630732275882.0, 
+                        "coaas:serviceEndPoint" : {
+                            "method" : "omi", 
+                            "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteTruckRoutes</id><Object><id>Truck 1 Route</id><Object><id>Route1733</id><Object><id>RoutePoint1</id><Object><id>geo</id><InfoItem name='longitude'/></Object></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                            "uri" : "http://77.234.220.206:8080/"
+                        }, 
+                        "@type" : "coaas:MetaData", 
+                        "coaas:createdAt" : 1528140275882.0
+                    }, 
+                    "@context" : {
+                        "coaas" : "http://schema.coaas.org/"
+                    }
+                }
+            }
+        }, 
+        "swm:RoutePoint3" : {
+            "@type" : "swm:Point", 
+            "swm:status" : {
+                "coaas:contextValue" : "expected", 
+                "@type" : "coaas:ContextValue", 
+                "coaas:metaData" : {
+                    "coaas:observationTime" : 1527349524.0, 
+                    "coaas:expieryTime" : 1630732275890.0, 
+                    "coaas:serviceEndPoint" : {
+                        "method" : "omi", 
+                        "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteTruckRoutes</id><Object><id>Truck 1 Route</id><Object><id>Route1733</id><Object><id>RoutePoint3</id><InfoItem name='status'/></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                        "uri" : "http://77.234.220.206:8080/"
+                    }, 
+                    "@type" : "coaas:MetaData", 
+                    "coaas:createdAt" : 1528140275890.0
+                }, 
+                "@context" : {
+                    "coaas" : "http://schema.coaas.org/"
+                }
+            }, 
+            "swm:time" : {
+                "coaas:contextValue" : "60.1841814", 
+                "@type" : "coaas:ContextValue", 
+                "coaas:metaData" : {
+                    "coaas:observationTime" : 1527349524.0, 
+                    "coaas:expieryTime" : 1630732275890.0, 
+                    "coaas:serviceEndPoint" : {
+                        "method" : "omi", 
+                        "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteTruckRoutes</id><Object><id>Truck 1 Route</id><Object><id>Route1733</id><Object><id>RoutePoint3</id><InfoItem name='time'/></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                        "uri" : "http://77.234.220.206:8080/"
+                    }, 
+                    "@type" : "coaas:MetaData", 
+                    "coaas:createdAt" : 1528140275890.0
+                }, 
+                "@context" : {
+                    "coaas" : "http://schema.coaas.org/"
+                }
+            }, 
+            "@id" : "RoutePoint3", 
+            "swm:PointType" : {
+                "coaas:contextValue" : "WasteDump", 
+                "@type" : "coaas:ContextValue", 
+                "coaas:metaData" : {
+                    "coaas:observationTime" : 1527349524.0, 
+                    "coaas:expieryTime" : 1630732275890.0, 
+                    "coaas:serviceEndPoint" : {
+                        "method" : "omi", 
+                        "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteTruckRoutes</id><Object><id>Truck 1 Route</id><Object><id>Route1733</id><Object><id>RoutePoint3</id><InfoItem name='PointType'/></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                        "uri" : "http://77.234.220.206:8080/"
+                    }, 
+                    "@type" : "coaas:MetaData", 
+                    "coaas:createdAt" : 1528140275890.0
+                }, 
+                "@context" : {
+                    "coaas" : "http://schema.coaas.org/"
+                }
+            }, 
+            "schema:geo" : {
+                "schema:latitude" : {
+                    "coaas:contextValue" : "60.1841814", 
+                    "@type" : "coaas:ContextValue", 
+                    "coaas:metaData" : {
+                        "coaas:observationTime" : 1527349524.0, 
+                        "coaas:expieryTime" : 1630732275893.0, 
+                        "coaas:serviceEndPoint" : {
+                            "method" : "omi", 
+                            "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteTruckRoutes</id><Object><id>Truck 1 Route</id><Object><id>Route1733</id><Object><id>RoutePoint3</id><Object><id>geo</id><InfoItem name='latitude'/></Object></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                            "uri" : "http://77.234.220.206:8080/"
+                        }, 
+                        "@type" : "coaas:MetaData", 
+                        "coaas:createdAt" : 1528140275893.0
+                    }, 
+                    "@context" : {
+                        "coaas" : "http://schema.coaas.org/"
+                    }
+                }, 
+                "@type" : "schema:GeoCoordinates", 
+                "@id" : "geo", 
+                "schema:longitude" : {
+                    "coaas:contextValue" : "24.8288542", 
+                    "@type" : "coaas:ContextValue", 
+                    "coaas:metaData" : {
+                        "coaas:observationTime" : 1527349524.0, 
+                        "coaas:expieryTime" : 1630732275893.0, 
+                        "coaas:serviceEndPoint" : {
+                            "method" : "omi", 
+                            "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteTruckRoutes</id><Object><id>Truck 1 Route</id><Object><id>Route1733</id><Object><id>RoutePoint3</id><Object><id>geo</id><InfoItem name='longitude'/></Object></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                            "uri" : "http://77.234.220.206:8080/"
+                        }, 
+                        "@type" : "coaas:MetaData", 
+                        "coaas:createdAt" : 1528140275893.0
+                    }, 
+                    "@context" : {
+                        "coaas" : "http://schema.coaas.org/"
+                    }
+                }
+            }
+        }, 
+        "@id" : "Route1733", 
+        "swm:RoutePoint2" : {
+            "@type" : "swm:Point", 
+            "swm:status" : {
+                "coaas:contextValue" : "passed", 
+                "@type" : "coaas:ContextValue", 
+                "coaas:metaData" : {
+                    "coaas:observationTime" : 1527349524.0, 
+                    "coaas:expieryTime" : 1630732275883.0, 
+                    "coaas:serviceEndPoint" : {
+                        "method" : "omi", 
+                        "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteTruckRoutes</id><Object><id>Truck 1 Route</id><Object><id>Route1733</id><Object><id>RoutePoint2</id><InfoItem name='status'/></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                        "uri" : "http://77.234.220.206:8080/"
+                    }, 
+                    "@type" : "coaas:MetaData", 
+                    "coaas:createdAt" : 1528140275883.0
+                }, 
+                "@context" : {
+                    "coaas" : "http://schema.coaas.org/"
+                }
+            }, 
+            "swm:time" : {
+                "coaas:contextValue" : "60.1841814", 
+                "@type" : "coaas:ContextValue", 
+                "coaas:metaData" : {
+                    "coaas:observationTime" : 1527349524.0, 
+                    "coaas:expieryTime" : 1630732275883.0, 
+                    "coaas:serviceEndPoint" : {
+                        "method" : "omi", 
+                        "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteTruckRoutes</id><Object><id>Truck 1 Route</id><Object><id>Route1733</id><Object><id>RoutePoint2</id><InfoItem name='time'/></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                        "uri" : "http://77.234.220.206:8080/"
+                    }, 
+                    "@type" : "coaas:MetaData", 
+                    "coaas:createdAt" : 1528140275883.0
+                }, 
+                "@context" : {
+                    "coaas" : "http://schema.coaas.org/"
+                }
+            }, 
+            "@id" : "RoutePoint2", 
+            "swm:PointType" : {
+                "coaas:contextValue" : "WasteContainer", 
+                "@type" : "coaas:ContextValue", 
+                "coaas:metaData" : {
+                    "coaas:observationTime" : 1527349524.0, 
+                    "coaas:expieryTime" : 1630732275883.0, 
+                    "coaas:serviceEndPoint" : {
+                        "method" : "omi", 
+                        "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteTruckRoutes</id><Object><id>Truck 1 Route</id><Object><id>Route1733</id><Object><id>RoutePoint2</id><InfoItem name='PointType'/></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                        "uri" : "http://77.234.220.206:8080/"
+                    }, 
+                    "@type" : "coaas:MetaData", 
+                    "coaas:createdAt" : 1528140275883.0
+                }, 
+                "@context" : {
+                    "coaas" : "http://schema.coaas.org/"
+                }
+            }, 
+            "schema:geo" : {
+                "schema:latitude" : {
+                    "coaas:contextValue" : "60.1841814", 
+                    "@type" : "coaas:ContextValue", 
+                    "coaas:metaData" : {
+                        "coaas:observationTime" : 1527349524.0, 
+                        "coaas:expieryTime" : 1630732275885.0, 
+                        "coaas:serviceEndPoint" : {
+                            "method" : "omi", 
+                            "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteTruckRoutes</id><Object><id>Truck 1 Route</id><Object><id>Route1733</id><Object><id>RoutePoint2</id><Object><id>geo</id><InfoItem name='latitude'/></Object></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                            "uri" : "http://77.234.220.206:8080/"
+                        }, 
+                        "@type" : "coaas:MetaData", 
+                        "coaas:createdAt" : 1528140275885.0
+                    }, 
+                    "@context" : {
+                        "coaas" : "http://schema.coaas.org/"
+                    }
+                }, 
+                "@type" : "schema:GeoCoordinates", 
+                "@id" : "geo", 
+                "schema:longitude" : {
+                    "coaas:contextValue" : "24.8288542", 
+                    "@type" : "coaas:ContextValue", 
+                    "coaas:metaData" : {
+                        "coaas:observationTime" : 1527349524.0, 
+                        "coaas:expieryTime" : 1630732275885.0, 
+                        "coaas:serviceEndPoint" : {
+                            "method" : "omi", 
+                            "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteTruckRoutes</id><Object><id>Truck 1 Route</id><Object><id>Route1733</id><Object><id>RoutePoint2</id><Object><id>geo</id><InfoItem name='longitude'/></Object></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                            "uri" : "http://77.234.220.206:8080/"
+                        }, 
+                        "@type" : "coaas:MetaData", 
+                        "coaas:createdAt" : 1528140275885.0
+                    }, 
+                    "@context" : {
+                        "coaas" : "http://schema.coaas.org/"
+                    }
+                }
+            }
+        }
+    }
+}
+]

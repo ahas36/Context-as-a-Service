@@ -1,0 +1,378 @@
+[
+{ 
+    "_id" : ObjectId("5b1374407e7bf5f1a4fcbbe0"), 
+    "swm:ownedBy" : {
+        "coaas:contextValue" : "ITMO University", 
+        "@type" : "coaas:ContextValue", 
+        "coaas:metaData" : {
+            "coaas:observationTime" : 1527349524.0, 
+            "coaas:expieryTime" : 1530593424332.0, 
+            "coaas:serviceEndPoint" : {
+                "method" : "omi", 
+                "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteContainers</id><Object><id>ITMO Birjevaya 14</id><InfoItem name='ownedBy'/></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                "uri" : "http://77.234.220.206:8080/"
+            }, 
+            "@type" : "coaas:MetaData", 
+            "coaas:createdAt" : 1528001424332.0
+        }, 
+        "@context" : {
+            "coaas" : "http://schema.coaas.org/"
+        }
+    }, 
+    "@type" : "swm:SmartWasteContainer", 
+    "swm:Capacity" : {
+        "maximumValue" : {
+            "coaas:contextValue" : "100.0", 
+            "@type" : "coaas:ContextValue", 
+            "coaas:metaData" : {
+                "coaas:observationTime" : 1527846391.0, 
+                "coaas:expieryTime" : 1528001725175.0, 
+                "coaas:serviceEndPoint" : {
+                    "method" : "omi", 
+                    "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteContainers</id><Object><id>ITMO Birjevaya 14</id><Object><id>Capacity</id><InfoItem name='maximumValue'/></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                    "uri" : "http://77.234.220.206:8080/"
+                }, 
+                "@type" : "coaas:MetaData", 
+                "coaas:createdAt" : 1528001425175.0
+            }, 
+            "@context" : {
+                "coaas" : "http://schema.coaas.org/"
+            }
+        }, 
+        "realTimeCapacity" : {
+            "coaas:contextValue" : 23.07692307692308, 
+            "@type" : "coaas:ContextValue", 
+            "coaas:metaData" : {
+                "coaas:observationTime" : 1527846340.0, 
+                "coaas:expieryTime" : NumberLong(1628251325077), 
+                "coaas:serviceEndPoint" : {
+                    "method" : "omi", 
+                    "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteContainers</id><Object><id>ITMO Birjevaya 14</id><Object><id>Capacity</id><InfoItem name='realTimeCapacity'/></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                    "uri" : "http://77.234.220.206:8080/"
+                }, 
+                "@type" : "coaas:MetaData", 
+                "coaas:createdAt" : NumberLong(1628250725077)
+            }, 
+            "@context" : {
+                "coaas" : "http://schema.coaas.org/"
+            }
+        }, 
+        "@type" : "swm:Capacity", 
+        "@id" : "Capacity"
+    }, 
+    "smw:RFID" : {
+        "@type" : "smw:Rfid", 
+        "rfid" : {
+            "coaas:contextValue" : "aaa", 
+            "@type" : "coaas:ContextValue", 
+            "coaas:metaData" : {
+                "coaas:observationTime" : 1527846340.0, 
+                "coaas:expieryTime" : 1530593425177.0, 
+                "coaas:serviceEndPoint" : {
+                    "method" : "omi", 
+                    "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteContainers</id><Object><id>ITMO Birjevaya 14</id><Object><id>RFID</id><InfoItem name='rfid'/></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                    "uri" : "http://77.234.220.206:8080/"
+                }, 
+                "@type" : "coaas:MetaData", 
+                "coaas:createdAt" : 1528001425177.0
+            }, 
+            "@context" : {
+                "coaas" : "http://schema.coaas.org/"
+            }
+        }, 
+        "@id" : "RFID"
+    }, 
+    "@id" : "ITMO Birjevaya 14", 
+    "schema:AirParameters" : {
+        "hum" : {
+            "coaas:contextValue" : "72.4", 
+            "@type" : "coaas:ContextValue", 
+            "coaas:metaData" : {
+                "coaas:observationTime" : 1527846340.0, 
+                "coaas:expieryTime" : 1530593425171.0, 
+                "coaas:serviceEndPoint" : {
+                    "method" : "omi", 
+                    "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteContainers</id><Object><id>ITMO Birjevaya 14</id><Object><id>AirParameters</id><InfoItem name='hum'/></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                    "uri" : "http://77.234.220.206:8080/"
+                }, 
+                "@type" : "coaas:MetaData", 
+                "coaas:createdAt" : 1528001425171.0
+            }, 
+            "@context" : {
+                "coaas" : "http://schema.coaas.org/"
+            }
+        }, 
+        "@type" : "schema:Weather", 
+        "temp" : {
+            "coaas:contextValue" : "23.7", 
+            "@type" : "coaas:ContextValue", 
+            "coaas:metaData" : {
+                "coaas:observationTime" : 1527846340.0, 
+                "coaas:expieryTime" : 1530593425171.0, 
+                "coaas:serviceEndPoint" : {
+                    "method" : "omi", 
+                    "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteContainers</id><Object><id>ITMO Birjevaya 14</id><Object><id>AirParameters</id><InfoItem name='temp'/></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                    "uri" : "http://77.234.220.206:8080/"
+                }, 
+                "@type" : "coaas:MetaData", 
+                "coaas:createdAt" : 1528001425171.0
+            }, 
+            "@context" : {
+                "coaas" : "http://schema.coaas.org/"
+            }
+        }, 
+        "@id" : "AirParameters"
+    }, 
+    "swm:AllowedWaste" : [
+        {
+            "coaas:contextValue" : "swm:Plastic", 
+            "@type" : "coaas:ContextValue", 
+            "coaas:metaData" : {
+                "coaas:observationTime" : 1527692552.0, 
+                "coaas:expieryTime" : 1630593425173.0, 
+                "coaas:serviceEndPoint" : {
+                    "method" : "omi", 
+                    "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteContainers</id><Object><id>ITMO Birjevaya 14</id><Object><id>AllowedWaste</id><Object><id>AllowedWaste1</id><InfoItem name='allowedWaste'/></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                    "uri" : "http://77.234.220.206:8080/"
+                }, 
+                "@type" : "coaas:MetaData", 
+                "coaas:createdAt" : 1528001425173.0
+            }, 
+            "@context" : {
+                "coaas" : "http://schema.coaas.org/"
+            }
+        }, 
+        {
+            "coaas:contextValue" : "swm:Glass", 
+            "@type" : "coaas:ContextValue", 
+            "coaas:metaData" : {
+                "coaas:observationTime" : 1527692552.0, 
+                "coaas:expieryTime" : 1530593425174.0, 
+                "coaas:serviceEndPoint" : {
+                    "method" : "omi", 
+                    "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteContainers</id><Object><id>ITMO Birjevaya 14</id><Object><id>AllowedWaste</id><Object><id>AllowedWaste2</id><InfoItem name='allowedWaste'/></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                    "uri" : "http://77.234.220.206:8080/"
+                }, 
+                "@type" : "coaas:MetaData", 
+                "coaas:createdAt" : 1528001425174.0
+            }, 
+            "@context" : {
+                "coaas" : "http://schema.coaas.org/"
+            }
+        }
+    ], 
+    "schema:openingHoursSpecifications" : [
+        {
+            "closes" : {
+                "coaas:contextValue" : "24:00", 
+                "@type" : "coaas:ContextValue", 
+                "coaas:metaData" : {
+                    "coaas:observationTime" : 1527349524.0, 
+                    "coaas:expieryTime" : 1530593425182.0, 
+                    "coaas:serviceEndPoint" : {
+                        "method" : "omi", 
+                        "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteContainers</id><Object><id>ITMO Birjevaya 14</id><Object><id>openingHoursSpecifications</id><Object><id>openingHoursSpecification</id><InfoItem name='closes'/></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                        "uri" : "http://77.234.220.206:8080/"
+                    }, 
+                    "@type" : "coaas:MetaData", 
+                    "coaas:createdAt" : 1528001425182.0
+                }, 
+                "@context" : {
+                    "coaas" : "http://schema.coaas.org/"
+                }
+            }, 
+            "dayOfWeek" : {
+                "coaas:contextValue" : "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday", 
+                "@type" : "coaas:ContextValue", 
+                "coaas:metaData" : {
+                    "coaas:observationTime" : 1527349524.0, 
+                    "coaas:expieryTime" : 1530593425182.0, 
+                    "coaas:serviceEndPoint" : {
+                        "method" : "omi", 
+                        "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteContainers</id><Object><id>ITMO Birjevaya 14</id><Object><id>openingHoursSpecifications</id><Object><id>openingHoursSpecification</id><InfoItem name='dayOfWeek'/></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                        "uri" : "http://77.234.220.206:8080/"
+                    }, 
+                    "@type" : "coaas:MetaData", 
+                    "coaas:createdAt" : 1528001425182.0
+                }, 
+                "@context" : {
+                    "coaas" : "http://schema.coaas.org/"
+                }
+            }, 
+            "@type" : "schema:OpeningHoursSpecification", 
+            "opens" : {
+                "coaas:contextValue" : "00:00", 
+                "@type" : "coaas:ContextValue", 
+                "coaas:metaData" : {
+                    "coaas:observationTime" : 1527349524.0, 
+                    "coaas:expieryTime" : 1530593425182.0, 
+                    "coaas:serviceEndPoint" : {
+                        "method" : "omi", 
+                        "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteContainers</id><Object><id>ITMO Birjevaya 14</id><Object><id>openingHoursSpecifications</id><Object><id>openingHoursSpecification</id><InfoItem name='opens'/></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                        "uri" : "http://77.234.220.206:8080/"
+                    }, 
+                    "@type" : "coaas:MetaData", 
+                    "coaas:createdAt" : 1528001425182.0
+                }, 
+                "@context" : {
+                    "coaas" : "http://schema.coaas.org/"
+                }
+            }, 
+            "@id" : "openingHoursSpecification"
+        }
+    ], 
+    "schema:geo" : {
+        "coaas:contextValue" : {
+            "latitude" : {
+                "coaas:contextValue" : "59.9440314", 
+                "@type" : "coaas:ContextValue", 
+                "coaas:metaData" : {
+                    "coaas:observationTime" : 1527349524.0, 
+                    "coaas:expieryTime" : 1630593425178.0, 
+                    "coaas:serviceEndPoint" : {
+                        "method" : "omi", 
+                        "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteContainers</id><Object><id>ITMO Birjevaya 14</id><Object><id>geo</id><InfoItem name='latitude'/></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                        "uri" : "http://77.234.220.206:8080/"
+                    }, 
+                    "@type" : "coaas:MetaData", 
+                    "coaas:createdAt" : 1528001425178.0
+                }, 
+                "@context" : {
+                    "coaas" : "http://schema.coaas.org/"
+                }
+            }, 
+            "@type" : "schema:GeoCoordinates", 
+            "coordinates" : [
+                30.3024489, 
+                59.9440314
+            ], 
+            "address" : {
+                "postalCode" : {
+                    "coaas:contextValue" : "199034.0", 
+                    "@type" : "coaas:ContextValue", 
+                    "coaas:metaData" : {
+                        "coaas:observationTime" : 1527349524.0, 
+                        "coaas:expieryTime" : 1630593425179.0, 
+                        "coaas:serviceEndPoint" : {
+                            "method" : "omi", 
+                            "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteContainers</id><Object><id>ITMO Birjevaya 14</id><Object><id>geo</id><Object><id>address</id><InfoItem name='postalCode'/></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                            "uri" : "http://77.234.220.206:8080/"
+                        }, 
+                        "@type" : "coaas:MetaData", 
+                        "coaas:createdAt" : 1528001425179.0
+                    }, 
+                    "@context" : {
+                        "coaas" : "http://schema.coaas.org/"
+                    }
+                }, 
+                "@type" : "schema:PostalAddress", 
+                "addressCountry" : {
+                    "coaas:contextValue" : "Russia", 
+                    "@type" : "coaas:ContextValue", 
+                    "coaas:metaData" : {
+                        "coaas:observationTime" : 1527349524.0, 
+                        "coaas:expieryTime" : 1630593425179.0, 
+                        "coaas:serviceEndPoint" : {
+                            "method" : "omi", 
+                            "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteContainers</id><Object><id>ITMO Birjevaya 14</id><Object><id>geo</id><Object><id>address</id><InfoItem name='addressCountry'/></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                            "uri" : "http://77.234.220.206:8080/"
+                        }, 
+                        "@type" : "coaas:MetaData", 
+                        "coaas:createdAt" : 1528001425179.0
+                    }, 
+                    "@context" : {
+                        "coaas" : "http://schema.coaas.org/"
+                    }
+                }, 
+                "addressLocality" : {
+                    "coaas:contextValue" : "Vasileostrovsky", 
+                    "@type" : "coaas:ContextValue", 
+                    "coaas:metaData" : {
+                        "coaas:observationTime" : 1527349524.0, 
+                        "coaas:expieryTime" : 1630593425179.0, 
+                        "coaas:serviceEndPoint" : {
+                            "method" : "omi", 
+                            "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteContainers</id><Object><id>ITMO Birjevaya 14</id><Object><id>geo</id><Object><id>address</id><InfoItem name='addressLocality'/></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                            "uri" : "http://77.234.220.206:8080/"
+                        }, 
+                        "@type" : "coaas:MetaData", 
+                        "coaas:createdAt" : 1528001425179.0
+                    }, 
+                    "@context" : {
+                        "coaas" : "http://schema.coaas.org/"
+                    }
+                }, 
+                "streetAddress" : {
+                    "coaas:contextValue" : "Birjevaya 14", 
+                    "@type" : "coaas:ContextValue", 
+                    "coaas:metaData" : {
+                        "coaas:observationTime" : 1527349524.0, 
+                        "coaas:expieryTime" : 1630593425179.0, 
+                        "coaas:serviceEndPoint" : {
+                            "method" : "omi", 
+                            "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteContainers</id><Object><id>ITMO Birjevaya 14</id><Object><id>geo</id><Object><id>address</id><InfoItem name='streetAddress'/></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                            "uri" : "http://77.234.220.206:8080/"
+                        }, 
+                        "@type" : "coaas:MetaData", 
+                        "coaas:createdAt" : 1528001425179.0
+                    }, 
+                    "@context" : {
+                        "coaas" : "http://schema.coaas.org/"
+                    }
+                }, 
+                "@id" : "address", 
+                "addressRegion" : {
+                    "coaas:contextValue" : "St.Petersburg", 
+                    "@type" : "coaas:ContextValue", 
+                    "coaas:metaData" : {
+                        "coaas:observationTime" : 1527349524.0, 
+                        "coaas:expieryTime" : 1630593425179.0, 
+                        "coaas:serviceEndPoint" : {
+                            "method" : "omi", 
+                            "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteContainers</id><Object><id>ITMO Birjevaya 14</id><Object><id>geo</id><Object><id>address</id><InfoItem name='addressRegion'/></Object></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                            "uri" : "http://77.234.220.206:8080/"
+                        }, 
+                        "@type" : "coaas:MetaData", 
+                        "coaas:createdAt" : 1528001425179.0
+                    }, 
+                    "@context" : {
+                        "coaas" : "http://schema.coaas.org/"
+                    }
+                }
+            }, 
+            "@id" : "geo", 
+            "type" : "Point", 
+            "longitude" : {
+                "coaas:contextValue" : "30.3024489", 
+                "@type" : "coaas:ContextValue", 
+                "coaas:metaData" : {
+                    "coaas:observationTime" : 1527349524.0, 
+                    "coaas:expieryTime" : 1630593425178.0, 
+                    "coaas:serviceEndPoint" : {
+                        "method" : "omi", 
+                        "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteContainers</id><Object><id>ITMO Birjevaya 14</id><Object><id>geo</id><InfoItem name='longitude'/></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                        "uri" : "http://77.234.220.206:8080/"
+                    }, 
+                    "@type" : "coaas:MetaData", 
+                    "coaas:createdAt" : 1528001425178.0
+                }, 
+                "@context" : {
+                    "coaas" : "http://schema.coaas.org/"
+                }
+            }
+        }, 
+        "@type" : "coaas:ContextValue", 
+        "coaas:metaData" : {
+            "coaas:observationTime" : 1527349524.0, 
+            "coaas:expieryTime" : 1630593425178.0, 
+            "coaas:serviceEndPoint" : {
+                "method" : "omi", 
+                "body" : "<?xml version='1.0' encoding='UTF-16'?><omiEnvelope ttl='0' version='1.0' xmlns='http://www.opengroup.org/xsd/omi/1.0/'><read msgformat='odf'><msg><Objects xmlns='http://www.opengroup.org/xsd/odf/1.0/'><Object><id>SWMService</id><Object><id>WasteContainers</id><Object><id>ITMO Birjevaya 14</id><Object><id>geo</id><InfoItem name='latitude'/></Object></Object></Object></Object></Objects></msg></read></omiEnvelope>", 
+                "uri" : "http://77.234.220.206:8080/"
+            }, 
+            "@type" : "coaas:MetaData", 
+            "coaas:createdAt" : 1528001425178.0
+        }
+    }
+}
+]

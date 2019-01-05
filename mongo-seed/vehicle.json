@@ -1,0 +1,24 @@
+[
+{ 
+    "_id" : ObjectId("5b36e375e87e16e345274d47"), 
+    "@context" : "http://schema.org", 
+    "@type" : "Vehicle", 
+    "schema:vehicleIdentificationNumber" : {
+        "@type" : "coaas:ContextValue", 
+        "coaas:contextValue" : "8371ac2b-065b-4b5f-805b-9bb5c827cac1"
+    }, 
+    "geo" : {
+        "@type" : "coaas:ContextValue", 
+        "coaas:contextValue" : {
+            "@type" : "GeoCoordinates", 
+            "latitude" : "-37.8758287", 
+            "longitude" : "145.0441159", 
+            "type" : "point", 
+            "coordinates" : [
+                145.0441159, 
+                -37.8758287
+            ]
+        }
+    }
+}
+]
