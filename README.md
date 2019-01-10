@@ -6,3 +6,5 @@
 4. execute ```docker-compose up --build```
 5. Open a browser and navigate to localhost:8080 (username admin, password: adminCoaaSPassword)
 6. You can access payara admin console through localhost:4848 (username admin, password: admin)
+## Disclaimer
+The current prototype implemnetation of CoaaS platform should be exclusively used for biotope-related purposes and it should be confined to biotope-related activities.
