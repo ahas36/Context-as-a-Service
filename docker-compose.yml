@@ -12,7 +12,10 @@ services:
           - '5432:5432'
         volumes:
           - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+          #for mac
           - ./pgdata:/var/lib/postgresql/data
+          #for windows
+          #- /userlogin/pgdata:/var/lib/postgresql/data
  mongodb:
         image: mongo:latest
         container_name: "mongodb"
@@ -22,7 +25,10 @@ services:
           - MONGODB_USER=alex 
           - MONGODB_PASS=contextstorage_17
         volumes:
+          #for mac
           - ./data/db:/data/db
+          #for windows
+          #- /userlogin/pgdata:/var/lib/postgresql/data
         ports:
             - 27017:27017
         command: mongod --smallfiles --logpath=/dev/null # --quiet
